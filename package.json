@@ -11,5 +11,8 @@
   "dependencies": {
     "fastify": "^4.27.0",
     "zod": "^3.23.8"
+  },
+  "scripts": {
+    "start": "bun run src/index.ts"
   }
 }
