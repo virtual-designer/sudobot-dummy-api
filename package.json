@@ -1,0 +1,15 @@
+{
+  "name": "sudobot-dummy-api",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "fastify": "^4.27.0",
+    "zod": "^3.23.8"
+  }
+}
