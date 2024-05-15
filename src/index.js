@@ -53,7 +53,7 @@ app.post("/login", (request, response) => {
             response.status(401).send({ error: "Invalid credentials" });
         }
     } catch (error) {
-        response.status(400).send({ error: (error as any)?.errors });
+        response.status(400).send({ error: error?.errors });
     }
 });
 
