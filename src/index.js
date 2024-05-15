@@ -1,7 +1,9 @@
 import fastify from "fastify";
 import { z } from "zod";
+import cors from "@fastify/cors";
 
 const app = fastify();
+app.register(cors);
 
 app.get("/", async (request, response) => {
     return { status: "Server is up." };
@@ -16,7 +18,6 @@ app.get("/announcements/latest", async (request, response) => {
         timestamp: Date.now(),
     };
 });
-
 
 const loginSchema = z.object({
     username: z.string(),
