@@ -17,6 +17,7 @@ app.get("/announcements/latest", async (request, response) => {
     };
 });
 
+
 const loginSchema = z.object({
     username: z.string(),
     password: z.string(),
