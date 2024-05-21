@@ -62,6 +62,7 @@ app.post("/login", (request, response) => {
 app.listen(
     {
         port: 3000,
+        host: "0.0.0.0"
     },
     (err, address) => {
         if (err) {
