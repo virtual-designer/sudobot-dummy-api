@@ -36,7 +36,7 @@ app.post("/login", (request, response) => {
                     id: 0,
                     username: "root",
                     name: "Root User",
-                    avatar: "https://images-ext-1.discordapp.net/external/3IZJa1HCOoUBmqWBx-0DxCkVSkuyYTVPUvcWQkaCFmw/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/774553653394538506/122a9dba34f636cb35e19a963e8e42f6.webp?format=webp",
+                    avatar: "https://cdn.discordapp.com/avatars/774553653394538506/b32753b5730f515f4962aa605f8eb179.webp",
                 },
                 guilds: [
                     {
